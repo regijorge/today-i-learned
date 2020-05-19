@@ -17,3 +17,7 @@ Res:
     const stringified = JSON.stringify(obj)
     console.log(stringified)
     // {"x":"foo","y":"bar","z":1}
+
+    // With identation:
+    const stringified1 = JSON.stringify(obj, null, 2)
+    console.log(stringified1)
