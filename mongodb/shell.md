@@ -42,3 +42,6 @@ It not needs to be created yet
     db.{collectionName}.deleteOne({query})
 
     db.{collectionName}.deleteMany({query})
+
+## Import data to Mongodbcloud
+    mongoimport --uri "mongodb://<USERNAME>:<PASSWORD>@atlas-host1:27017,atlas-host2:27017,atlas-host3:27017/<DBNAME>?ssl=true&replicaSet=myAtlasRS&authSource=admin" --collection <COLLECTIONAME> --drop --file '<FILEPATH>'
