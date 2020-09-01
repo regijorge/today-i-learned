@@ -1,0 +1,2 @@
+# Microservices
+É um estilo arquitetural, uma abordagem para desenvolver uma única aplicação como um módulo de pequenos serviços fracamente acoplados onde cada módulo tem seu próprio processo, um mecanismo de comunicação e sua própria base de dados.
