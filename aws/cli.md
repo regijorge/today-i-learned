@@ -15,3 +15,9 @@ To use a named profile for multiple commands, you can avoid specifying the profi
 ```
 export AWS_PROFILE=<PROFILE_NAME>
 ```
+
+## List all profiles
+For now there's no way to do this with aws cli but we can use:
+```
+cat ~/.aws/config | grep "\[profile " | sed -e 's/\[//g' -e 's/\]//g' -e 's/profile //g'
+```
