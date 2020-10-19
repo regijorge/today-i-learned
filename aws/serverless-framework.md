@@ -26,6 +26,11 @@ serverless create --name <PROJECT_NAME> --template-url https://github.com/coding
 serverless deploy -v
 ```
 
+### Stage
+```
+serverless deploy -s <STAGE>
+```
+
 ### Specific function
 ```
 serverless deploy -f <FUNCTION_NAME> -v
