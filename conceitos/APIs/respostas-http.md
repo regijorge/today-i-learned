@@ -124,3 +124,8 @@ Um erro 500 nunca é culpa do cliente e, portanto, é razoável que o cliente te
 
 #### 501 - Not Implemented
 O servidor não reconhece o método de solicitação ou não possui a capacidade de atender à solicitação. Geralmente, isso implica disponibilidade futura, por exemplo: um novo recurso de uma API.
+
+#### 503 - Service Unavailable
+O código de resposta de erro de servidor 503 Service Unavailable do HTTP indica que o servidor não está pronto para lidar com a requisição.
+
+Causas comuns são um servidor que está em manutenção ou sobrecarregado. Esta resposta deve ser usada para condições temporárias, e o cabeçalho HTTP Retry-After deve, se possível, conter o tempo estimado para restabelecimento do serviço.
